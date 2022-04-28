@@ -1,0 +1,21 @@
+$primary-bg-color:gray;
+$secondary-bg-color:whitesmoke;
+$primary-border-size:4px;
+
+@mixin list-item($bg-color:pink){
+    list-style: none;
+    padding: 8px;
+    border-bottom: 1px solid whitesmoke;
+    color: rgb(62, 33, 33);
+    font-weight: 600;
+    background-color: $bg-color;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
